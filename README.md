@@ -1,95 +1,69 @@
-English | [简体中文](./README.zh-CN.md)
+# yingjun-pms
+迎君酒店管理系统
 
-# Ant Design Pro
+## 技术栈
+本系统采用前后端分离协同开发，整个系统使用ECMAScript2017，即[es6](http://es6.ruanyifeng.com/)
+前端：  js框架：[React](https://facebook.github.io/react/)
+       UI：[Ant Design](https://ant.design/index-cn)
+       构建：[webpack](https://doc.webpack-china.org/)
+       数据操作：fetch
+后端：  [Nodejs](http://nodejs.cn/)
+数据库：MongoDB
 
-[![](https://img.shields.io/travis/ant-design/ant-design-pro/master.svg?style=flat-square)](https://travis-ci.org/ant-design/ant-design-pro) [![Build status](https://ci.appveyor.com/api/projects/status/67fxu2by3ibvqtat/branch/master?svg=true)](https://ci.appveyor.com/project/afc163/ant-design-pro/branch/master)  [![Gitter](https://badges.gitter.im/ant-design/ant-design-pro.svg)](https://gitter.im/ant-design/ant-design-pro?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+## 需要安装的软件
+1. [nodejs](http://nodejs.cn/)
+1. [yarn](https://yarnpkg.com/zh-Hans/)
+1. [ide webstorm](http://www.jetbrains.com/webstorm/) license server : http://idea.imsxm.com/
+1. [git](https://git-scm.com/)
 
-An out-of-box UI solution for enterprise applications as a React boilerplate.
-
-![](https://gw.alipayobjects.com/zos/rmsportal/xEdBqwSzvoSapmnSnYjU.png)
-
-- Preview: http://preview.pro.ant.design
-- Home Page: http://pro.ant.design
-- Documentation: http://pro.ant.design/docs/getting-started
-- ChangeLog: http://pro.ant.design/docs/changelog
-- FAQ: http://pro.ant.design/docs/faq
-- Mirror Site in China: http://ant-design-pro.gitee.io
-
-## Translation Recruitment :loudspeaker:
-
-We need your help: https://github.com/ant-design/ant-design-pro/issues/120
-
-## Features
-
-- :gem: **Neat Design**: Follow [Ant Design specification](http://ant.design/)
-- :triangular_ruler: **Common Templates**: Typical templates for enterprise applications
-- :rocket: **State of The Art Development**: Newest development stack of React/dva/antd
-- :iphone: **Responsive**: Designed for varies of screen size
-- :art: **Theming**: Customizable theme with simple config
-- :globe_with_meridians: **International**: Built-in i18n solution
-- :gear: **Best Practice**: Solid workflow make your code health
-- :1234: **Mock development**: Easy to use mock development solution
-- :white_check_mark: **UI Test**: Fly safely with unit test and e2e test
-
-## Templates
-
-```
-- Dashboard
-  - Analytic
-  - Monitor
-  - Workspace
-- Form
-  - Basic Form
-  - Step Form
-  - Advanced From
-- List
-  - Standard Table
-  - Standard List
-  - Card List
-  - Search List (Project/Applications/Article)
-- Profile
-  - Simple Profile
-  - Advanced Profile
-- Result
-  - Success
-  - Failed
-- Exception
-  - 403
-  - 404
-  - 500
-- User
-  - Login
-  - Register
-  - Register Result
-```
-
-## Usage
+## Build Setup
+> 使用[yarn](https://yarnpkg.com/zh-Hans/)
 
 ```bash
-$ git clone https://github.com/ant-design/ant-design-pro.git --depth=1
-$ cd ant-design-pro
-$ npm install
-$ npm start         # visit http://localhost:8000
+# install dependencies
+$ yarn
+
+# serve with hot reload at localhost:8080
+yarn run dev
+
+# build for production with minification
+yarn run build
+
+# clear cache 如果发现源码与webpack编译文件明显不一致，有可能是缓存脏数据
+yarn run clear-cache
+
 ```
 
-Or you can use the command tool: [ant-design-pro-cli](https://github.com/ant-design/ant-design-pro-cli)
+## 前后端分离 ngnix配置 参考
 
 ```bash
-$ npm install ant-design-pro-cli -g
-$ mkdir pro-demo && cd pro-demo
-$ pro new
+# 服务地址
+upstream api_service {
+  server localhost:8080;
+  keepalive 2000;
+}
+#
+server {
+  listen       80;
+  server_name  localhost;
+  location / {
+    root /home/app/nginx/html; // 前端打包之后的文件存放路径
+    index index.html;
+    try_files $uri $uri/ /index.html; #react-router 防止页面刷新出现404
+  }
+  location ^~/api { // 代理ajax请求，前端的ajax请求配置了统一的baseUrl = ‘/api’
+     proxy_pass http://api_service/;
+     proxy_set_header Host  $http_host;
+     proxy_set_header Connection close;
+     proxy_set_header X-Real-IP $remote_addr;
+     proxy_set_header X-Forwarded-Server $host;
+  }
+}
 ```
+## 脚手架步骤
+1. git clone zk-react-template-management object-name
+2. cd object-name
+3. rm -rf .git
+4. change local-default to local
+5. yarn
 
-More instruction at [documentation](http://pro.ant.design/docs/getting-started).
-
-## Compatibility
-
-Modern browsers and IE11.
-
-## Contributing
-
-Any Contribution of following ways will be welcome:
-
-- Use Ant Design Pro in your daily work.
-- Submit [issue](http://github.com/ant-design/ant-design-pro/issues) to report bug or ask questions.
-- Propose [pull request](http://github.com/ant-design/ant-design-pro/pulls) to improve our code.
