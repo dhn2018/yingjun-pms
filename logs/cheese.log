@@ -1,0 +1,705 @@
+[2018-06-20 13:26:36.668] [ERROR] cheese - { Error: Failed to lookup view "login" in views directory "/Users/wangshubin/workspace/personal/yingjun-pms/public"
+    at Function.render (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/response.js:1008:7)
+    at /Users/wangshubin/workspace/personal/yingjun-pms/routes/index.js:22:9
+    at Layer.handle [as handle_request] (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:335:12)
+  view: 
+   View {
+     defaultEngine: 'html',
+     ext: '.html',
+     name: 'login',
+     root: '/Users/wangshubin/workspace/personal/yingjun-pms/public',
+     engine: [Function],
+     path: undefined } }
+[2018-06-20 13:26:37.221] [ERROR] cheese - { Error: Failed to lookup view "login" in views directory "/Users/wangshubin/workspace/personal/yingjun-pms/public"
+    at Function.render (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/response.js:1008:7)
+    at /Users/wangshubin/workspace/personal/yingjun-pms/routes/index.js:22:9
+    at Layer.handle [as handle_request] (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:335:12)
+  view: 
+   View {
+     defaultEngine: 'html',
+     ext: '.html',
+     name: 'login',
+     root: '/Users/wangshubin/workspace/personal/yingjun-pms/public',
+     engine: [Function],
+     path: undefined } }
+[2018-06-20 13:31:19.343] [ERROR] cheese - TypeError: Cannot read property 'find' of undefined
+    at Object.exports.getAllOrganizations (/Users/wangshubin/workspace/personal/yingjun-pms/proxy/organization.js:8:30)
+    at Object.exports.getAllOrganizations (/Users/wangshubin/workspace/personal/yingjun-pms/service/organization.js:12:36)
+    at /Users/wangshubin/workspace/personal/yingjun-pms/controller/organization.js:5:53
+    at /Users/wangshubin/workspace/personal/yingjun-pms/controller/controller-decorator.js:4:19
+    at Layer.handle [as handle_request] (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/route.js:137:13)
+    at exports.userRequired (/Users/wangshubin/workspace/personal/yingjun-pms/middlewares/auth.js:10:3)
+    at Layer.handle [as handle_request] (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:47:12)
+[2018-06-20 13:31:19.674] [ERROR] cheese - { Error: Failed to lookup view "index" in views directory "/Users/wangshubin/workspace/personal/yingjun-pms/public"
+    at Function.render (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/response.js:1008:7)
+    at /Users/wangshubin/workspace/personal/yingjun-pms/routes/index.js:95:9
+    at Layer.handle [as handle_request] (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/route.js:137:13)
+    at exports.userRequired (/Users/wangshubin/workspace/personal/yingjun-pms/middlewares/auth.js:10:3)
+    at Layer.handle [as handle_request] (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:174:3)
+  view: 
+   View {
+     defaultEngine: 'html',
+     ext: '.html',
+     name: 'index',
+     root: '/Users/wangshubin/workspace/personal/yingjun-pms/public',
+     engine: [Function],
+     path: undefined } }
+[2018-06-20 13:32:30.422] [ERROR] cheese - { Error: Failed to lookup view "index" in views directory "/Users/wangshubin/workspace/personal/yingjun-pms/public"
+    at Function.render (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/response.js:1008:7)
+    at /Users/wangshubin/workspace/personal/yingjun-pms/routes/index.js:95:9
+    at Layer.handle [as handle_request] (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/route.js:137:13)
+    at exports.userRequired (/Users/wangshubin/workspace/personal/yingjun-pms/middlewares/auth.js:10:3)
+    at Layer.handle [as handle_request] (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:174:3)
+  view: 
+   View {
+     defaultEngine: 'html',
+     ext: '.html',
+     name: 'index',
+     root: '/Users/wangshubin/workspace/personal/yingjun-pms/public',
+     engine: [Function],
+     path: undefined } }
+[2018-06-20 13:32:33.701] [ERROR] cheese - { Error: Failed to lookup view "index" in views directory "/Users/wangshubin/workspace/personal/yingjun-pms/public"
+    at Function.render (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/response.js:1008:7)
+    at /Users/wangshubin/workspace/personal/yingjun-pms/routes/index.js:95:9
+    at Layer.handle [as handle_request] (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/route.js:137:13)
+    at exports.userRequired (/Users/wangshubin/workspace/personal/yingjun-pms/middlewares/auth.js:10:3)
+    at Layer.handle [as handle_request] (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:174:3)
+  view: 
+   View {
+     defaultEngine: 'html',
+     ext: '.html',
+     name: 'index',
+     root: '/Users/wangshubin/workspace/personal/yingjun-pms/public',
+     engine: [Function],
+     path: undefined } }
+[2018-06-20 13:32:39.009] [ERROR] cheese - { Error: Failed to lookup view "index" in views directory "/Users/wangshubin/workspace/personal/yingjun-pms/public"
+    at Function.render (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/response.js:1008:7)
+    at /Users/wangshubin/workspace/personal/yingjun-pms/routes/index.js:95:9
+    at Layer.handle [as handle_request] (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/route.js:137:13)
+    at exports.userRequired (/Users/wangshubin/workspace/personal/yingjun-pms/middlewares/auth.js:10:3)
+    at Layer.handle [as handle_request] (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:174:3)
+  view: 
+   View {
+     defaultEngine: 'html',
+     ext: '.html',
+     name: 'index',
+     root: '/Users/wangshubin/workspace/personal/yingjun-pms/public',
+     engine: [Function],
+     path: undefined } }
+[2018-06-20 13:32:45.208] [ERROR] cheese - { Error: Failed to lookup view "index" in views directory "/Users/wangshubin/workspace/personal/yingjun-pms/public"
+    at Function.render (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/response.js:1008:7)
+    at /Users/wangshubin/workspace/personal/yingjun-pms/routes/index.js:95:9
+    at Layer.handle [as handle_request] (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/route.js:137:13)
+    at exports.userRequired (/Users/wangshubin/workspace/personal/yingjun-pms/middlewares/auth.js:10:3)
+    at Layer.handle [as handle_request] (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/wangshubin/workspace/personal/yingjun-pms/node_modules/express/lib/router/index.js:174:3)
+  view: 
+   View {
+     defaultEngine: 'html',
+     ext: '.html',
+     name: 'index',
+     root: '/Users/wangshubin/workspace/personal/yingjun-pms/public',
+     engine: [Function],
+     path: undefined } }
+[2018-06-20 14:23:28.362] [ERROR] cheese - connect to mongodb://127.0.0.1/yingjun error:  failed to connect to server [127.0.0.1:27017] on first connect [MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017]
+[2018-06-20 14:25:07.992] [ERROR] cheese - { Error: Failed to lookup view "index" in views directory "F:\pms\yingjun-pms\public"
+    at Function.render (F:\pms\yingjun-pms\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (F:\pms\yingjun-pms\node_modules\express\lib\response.js:1008:7)
+    at F:\pms\yingjun-pms\routes\index.js:95:9
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at exports.userRequired (F:\pms\yingjun-pms\middlewares\auth.js:10:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:281:22
+    at param (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:174:3)
+  view: 
+   View {
+     defaultEngine: 'html',
+     ext: '.html',
+     name: 'index',
+     root: 'F:\\pms\\yingjun-pms\\public',
+     engine: [Function],
+     path: undefined } }
+[2018-06-20 15:28:01.153] [ERROR] cheese - { Error: Failed to lookup view "index" in views directory "F:\pms\yingjun-pms\public"
+    at Function.render (F:\pms\yingjun-pms\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (F:\pms\yingjun-pms\node_modules\express\lib\response.js:1008:7)
+    at F:\pms\yingjun-pms\routes\index.js:95:9
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at exports.userRequired (F:\pms\yingjun-pms\middlewares\auth.js:10:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:281:22
+    at param (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:174:3)
+  view: 
+   View {
+     defaultEngine: 'html',
+     ext: '.html',
+     name: 'index',
+     root: 'F:\\pms\\yingjun-pms\\public',
+     engine: [Function],
+     path: undefined } }
+[2018-06-20 16:21:16.832] [ERROR] cheese - { Error: Failed to lookup view "index" in views directory "F:\pms\yingjun-pms\public"
+    at Function.render (F:\pms\yingjun-pms\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (F:\pms\yingjun-pms\node_modules\express\lib\response.js:1008:7)
+    at F:\pms\yingjun-pms\routes\index.js:95:9
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at exports.userRequired (F:\pms\yingjun-pms\middlewares\auth.js:10:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:281:22
+    at param (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:174:3)
+  view: 
+   View {
+     defaultEngine: 'html',
+     ext: '.html',
+     name: 'index',
+     root: 'F:\\pms\\yingjun-pms\\public',
+     engine: [Function],
+     path: undefined } }
+[2018-06-20 16:22:45.515] [ERROR] cheese - { Error: Failed to lookup view "index" in views directory "F:\pms\yingjun-pms\public"
+    at Function.render (F:\pms\yingjun-pms\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (F:\pms\yingjun-pms\node_modules\express\lib\response.js:1008:7)
+    at F:\pms\yingjun-pms\routes\index.js:95:9
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at exports.userRequired (F:\pms\yingjun-pms\middlewares\auth.js:10:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:281:22
+    at param (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:174:3)
+  view: 
+   View {
+     defaultEngine: 'html',
+     ext: '.html',
+     name: 'index',
+     root: 'F:\\pms\\yingjun-pms\\public',
+     engine: [Function],
+     path: undefined } }
+[2018-06-20 16:22:56.902] [ERROR] cheese - { Error: Failed to lookup view "index" in views directory "F:\pms\yingjun-pms\public"
+    at Function.render (F:\pms\yingjun-pms\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (F:\pms\yingjun-pms\node_modules\express\lib\response.js:1008:7)
+    at F:\pms\yingjun-pms\routes\index.js:95:9
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at exports.userRequired (F:\pms\yingjun-pms\middlewares\auth.js:10:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:281:22
+    at param (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:174:3)
+  view: 
+   View {
+     defaultEngine: 'html',
+     ext: '.html',
+     name: 'index',
+     root: 'F:\\pms\\yingjun-pms\\public',
+     engine: [Function],
+     path: undefined } }
+[2018-06-20 16:37:40.235] [ERROR] cheese - { Error: Failed to lookup view "index" in views directory "F:\pms\yingjun-pms\public"
+    at Function.render (F:\pms\yingjun-pms\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (F:\pms\yingjun-pms\node_modules\express\lib\response.js:1008:7)
+    at F:\pms\yingjun-pms\routes\index.js:95:9
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at exports.userRequired (F:\pms\yingjun-pms\middlewares\auth.js:10:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:281:22
+    at param (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:174:3)
+  view: 
+   View {
+     defaultEngine: 'html',
+     ext: '.html',
+     name: 'index',
+     root: 'F:\\pms\\yingjun-pms\\public',
+     engine: [Function],
+     path: undefined } }
+[2018-06-20 16:37:41.428] [ERROR] cheese - { Error: Failed to lookup view "index" in views directory "F:\pms\yingjun-pms\public"
+    at Function.render (F:\pms\yingjun-pms\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (F:\pms\yingjun-pms\node_modules\express\lib\response.js:1008:7)
+    at F:\pms\yingjun-pms\routes\index.js:95:9
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at exports.userRequired (F:\pms\yingjun-pms\middlewares\auth.js:10:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:281:22
+    at param (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:174:3)
+  view: 
+   View {
+     defaultEngine: 'html',
+     ext: '.html',
+     name: 'index',
+     root: 'F:\\pms\\yingjun-pms\\public',
+     engine: [Function],
+     path: undefined } }
+[2018-06-20 16:37:42.433] [ERROR] cheese - { Error: Failed to lookup view "index" in views directory "F:\pms\yingjun-pms\public"
+    at Function.render (F:\pms\yingjun-pms\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (F:\pms\yingjun-pms\node_modules\express\lib\response.js:1008:7)
+    at F:\pms\yingjun-pms\routes\index.js:95:9
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at exports.userRequired (F:\pms\yingjun-pms\middlewares\auth.js:10:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:281:22
+    at param (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:174:3)
+  view: 
+   View {
+     defaultEngine: 'html',
+     ext: '.html',
+     name: 'index',
+     root: 'F:\\pms\\yingjun-pms\\public',
+     engine: [Function],
+     path: undefined } }
+[2018-06-20 17:19:54.574] [ERROR] cheese - { Error: Failed to lookup view "index" in views directory "F:\pms\yingjun-pms\public"
+    at Function.render (F:\pms\yingjun-pms\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (F:\pms\yingjun-pms\node_modules\express\lib\response.js:1008:7)
+    at F:\pms\yingjun-pms\routes\index.js:95:9
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at exports.userRequired (F:\pms\yingjun-pms\middlewares\auth.js:10:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:281:22
+    at param (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:174:3)
+  view: 
+   View {
+     defaultEngine: 'html',
+     ext: '.html',
+     name: 'index',
+     root: 'F:\\pms\\yingjun-pms\\public',
+     engine: [Function],
+     path: undefined } }
+[2018-06-20 18:23:08.647] [ERROR] cheese - { Error: Failed to lookup view "index" in views directory "F:\pms\yingjun-pms\public"
+    at Function.render (F:\pms\yingjun-pms\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (F:\pms\yingjun-pms\node_modules\express\lib\response.js:1008:7)
+    at F:\pms\yingjun-pms\routes\index.js:95:9
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at exports.userRequired (F:\pms\yingjun-pms\middlewares\auth.js:10:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:281:22
+    at param (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:174:3)
+  view: 
+   View {
+     defaultEngine: 'html',
+     ext: '.html',
+     name: 'index',
+     root: 'F:\\pms\\yingjun-pms\\public',
+     engine: [Function],
+     path: undefined } }
+[2018-06-20 18:23:14.009] [ERROR] cheese - { Error: Failed to lookup view "index" in views directory "F:\pms\yingjun-pms\public"
+    at Function.render (F:\pms\yingjun-pms\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (F:\pms\yingjun-pms\node_modules\express\lib\response.js:1008:7)
+    at F:\pms\yingjun-pms\routes\index.js:95:9
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at exports.userRequired (F:\pms\yingjun-pms\middlewares\auth.js:10:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:281:22
+    at param (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:174:3)
+  view: 
+   View {
+     defaultEngine: 'html',
+     ext: '.html',
+     name: 'index',
+     root: 'F:\\pms\\yingjun-pms\\public',
+     engine: [Function],
+     path: undefined } }
+[2018-06-20 18:23:19.623] [ERROR] cheese - { Error: Failed to lookup view "index" in views directory "F:\pms\yingjun-pms\public"
+    at Function.render (F:\pms\yingjun-pms\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (F:\pms\yingjun-pms\node_modules\express\lib\response.js:1008:7)
+    at F:\pms\yingjun-pms\routes\index.js:95:9
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at exports.userRequired (F:\pms\yingjun-pms\middlewares\auth.js:10:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:281:22
+    at param (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:174:3)
+  view: 
+   View {
+     defaultEngine: 'html',
+     ext: '.html',
+     name: 'index',
+     root: 'F:\\pms\\yingjun-pms\\public',
+     engine: [Function],
+     path: undefined } }
+[2018-06-20 18:23:20.500] [ERROR] cheese - { Error: Failed to lookup view "index" in views directory "F:\pms\yingjun-pms\public"
+    at Function.render (F:\pms\yingjun-pms\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (F:\pms\yingjun-pms\node_modules\express\lib\response.js:1008:7)
+    at F:\pms\yingjun-pms\routes\index.js:95:9
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at exports.userRequired (F:\pms\yingjun-pms\middlewares\auth.js:10:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:281:22
+    at param (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:354:14)
+    at param (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:174:3)
+  view: 
+   View {
+     defaultEngine: 'html',
+     ext: '.html',
+     name: 'index',
+     root: 'F:\\pms\\yingjun-pms\\public',
+     engine: [Function],
+     path: undefined } }
+[2018-06-21 06:54:15.250] [ERROR] cheese - TypeError: Cannot read property 'loginName' of undefined
+    at F:\pms\yingjun-pms\middlewares\permission.js:5:30
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at exports.userRequired (F:\pms\yingjun-pms\middlewares\auth.js:12:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:317:13)
+    at F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:284:7
+[2018-06-21 07:02:33.245] [ERROR] cheese - TypeError: Cannot read property 'loginName' of undefined
+    at F:\pms\yingjun-pms\middlewares\permission.js:5:30
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at exports.userRequired (F:\pms\yingjun-pms\middlewares\auth.js:12:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:317:13)
+    at F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:284:7
+[2018-06-21 07:16:09.051] [ERROR] cheese - TypeError: Cannot read property 'loginName' of undefined
+    at F:\pms\yingjun-pms\middlewares\permission.js:5:30
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at exports.userRequired (F:\pms\yingjun-pms\middlewares\auth.js:12:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:317:13)
+    at F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:284:7
+[2018-06-21 07:20:31.241] [ERROR] cheese - TypeError: Cannot read property 'loginName' of undefined
+    at F:\pms\yingjun-pms\middlewares\permission.js:5:30
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at exports.userRequired (F:\pms\yingjun-pms\middlewares\auth.js:12:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:317:13)
+    at F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:284:7
+[2018-06-21 07:34:15.257] [ERROR] cheese - TypeError: Cannot read property 'loginName' of undefined
+    at F:\pms\yingjun-pms\middlewares\permission.js:5:30
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at exports.userRequired (F:\pms\yingjun-pms\middlewares\auth.js:12:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:317:13)
+    at F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:284:7
+[2018-06-21 09:25:35.884] [ERROR] cheese - RangeError: Maximum call stack size exceeded
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:320:31)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+[2018-06-21 09:30:49.773] [ERROR] cheese - RangeError: Maximum call stack size exceeded
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:320:31)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+[2018-06-21 09:33:05.296] [ERROR] cheese - RangeError: Maximum call stack size exceeded
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:320:31)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+    at merge (F:\pms\yingjun-pms\node_modules\mongoose\lib\utils.js:345:7)
+[2018-06-21 13:27:18.646] [ERROR] cheese - TypeError: Cannot read property 'find' of undefined
+    at Object.exports.getAll (F:\pms\yingjun-pms\proxy\menu.js:9:22)
+    at Object.exports.getAll (F:\pms\yingjun-pms\service\menu.js:6:28)
+    at F:\pms\yingjun-pms\controller\menu.js:5:37
+    at F:\pms\yingjun-pms\controller\controller-decorator.js:4:19
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at exports.userRequired (F:\pms\yingjun-pms\middlewares\auth.js:12:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:47:12)
+[2018-06-21 13:27:18.777] [ERROR] cheese - TypeError: Cannot read property 'find' of undefined
+    at Object.exports.getAll (F:\pms\yingjun-pms\proxy\menu.js:9:22)
+    at Object.exports.getAll (F:\pms\yingjun-pms\service\menu.js:6:28)
+    at F:\pms\yingjun-pms\controller\menu.js:5:37
+    at F:\pms\yingjun-pms\controller\controller-decorator.js:4:19
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at exports.userRequired (F:\pms\yingjun-pms\middlewares\auth.js:12:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:47:12)
+[2018-06-21 13:27:42.083] [ERROR] cheese - TypeError: Cannot read property 'find' of undefined
+    at Object.exports.getAll (F:\pms\yingjun-pms\proxy\menu.js:9:22)
+    at Object.exports.getAll (F:\pms\yingjun-pms\service\menu.js:6:28)
+    at F:\pms\yingjun-pms\controller\menu.js:5:37
+    at F:\pms\yingjun-pms\controller\controller-decorator.js:4:19
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at exports.userRequired (F:\pms\yingjun-pms\middlewares\auth.js:12:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\pms\yingjun-pms\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\pms\yingjun-pms\node_modules\express\lib\router\layer.js:95:5)
+    at F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\pms\yingjun-pms\node_modules\express\lib\router\index.js:47:12)
