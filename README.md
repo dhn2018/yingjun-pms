@@ -4,12 +4,14 @@
 ## 技术栈
 本系统采用前后端分离协同开发，整个系统使用ECMAScript2017，即 [es6](http://es6.ruanyifeng.com/)  
 
-前端：  js框架：[React](https://facebook.github.io/react/)  
-       UI：[Ant Design](https://ant.design/index-cn)  
-       构建：[webpack](https://doc.webpack-china.org/)  
-       数据操作：fetch  
-后端：  [Nodejs](http://nodejs.cn/)  
-数据库：MongoDB  
+- 前端： 
+js框架：[React](https://facebook.github.io/react/)  
+UI：[Ant Design](https://ant.design/index-cn)  
+构建：[webpack](https://doc.webpack-china.org/)  
+数据操作：fetch  
+- 后端：  
+[Nodejs](http://nodejs.cn/)  
+- 数据库：MongoDB  
 
 ## 需要安装的软件
 1. [nodejs] (http://nodejs.cn/)
