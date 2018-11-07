@@ -12,10 +12,10 @@
 数据库：MongoDB  
 ```
 ## 需要安装的软件
-1. [nodejs](http://nodejs.cn/)
-1. [yarn](https://yarnpkg.com/zh-Hans/)
-1. [ide webstorm](http://www.jetbrains.com/webstorm/) license server : http://idea.imsxm.com/
-1. [git](https://git-scm.com/)
+1. [nodejs] (http://nodejs.cn/)
+1. [yarn] (https://yarnpkg.com/zh-Hans/)
+1. [ide webstorm] (http://www.jetbrains.com/webstorm/) license server : http://idea.imsxm.com/
+1. [git] (https://git-scm.com/)
 
 ## Build Setup
 > 使用[yarn](https://yarnpkg.com/zh-Hans/)
